@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Development Student Club</title>
+    <link rel="shortcut icon" href="images/icon1.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cursor.css">
+    <script src="toggle.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <!-- js -->
+    <script src="javascript/cursor.js"></script>
+    <!--....... <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"
+        integrity="sha512-gWlyRVDsJvp5kesJt4cSdPPLZIBdln/uSwzYgUicQcbTgRNQE4QhP5KUBIYlLYLkiKIQiuD7KUMHzqGNW/D2bQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> ......-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        
+</head>
+
+<body>
+   
+    <!-- cursor functionality -->
+
+    <div class="cursor"></div>
+    <!-- <script>
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.top = e.pageY + 'px';
+        })
+    </script> -->
+
+    <!-- <div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
+        </div>
+
+        <div class="cursor__ball cursor__ball--small">
+            <svg height="10" width="10">
+                <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+            </svg>
+        </div>
+    </div>
+    <script>
+        const $bigBall = document.querySelector('.cursor__ball--big');
+        const $smallBall = document.querySelector('.cursor__ball--small');
+        const $hoverables = document.querySelectorAll('.hoverable');
+
+        // Listeners
+        document.body.addEventListener('mousemove', onMouseMove);
+        for (let i = 0; i < $hoverables.length; i++) {
+        $hoverables[i].addEventListener('mouseenter', onMouseHover);
+        $hoverables[i].addEventListener('mouseleave', onMouseHoverOut);
+        }
+
+        // Move the cursor
+        function onMouseMove(e) {
+        TweenMax.to($bigBall, .4, {
+            x: e.pageX - 15,
+            y: e.pageY - 15
+        })
+        TweenMax.to($smallBall, .1, {
+            x: e.pageX - 5,
+            y: e.pageY - 7
+        })
+        }
+
+        // Hover an element
+        function onMouseHover() {
+        TweenMax.to($bigBall, .3, {
+            scale: 4
+        })
+        }
+        function onMouseHoverOut() {
+        TweenMax.to($bigBall, .3, {
+            scale: 1
+        })
+        }
+    </script> -->
+
+    <!-- home page -->
+   
+        
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">gdsc</label>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </nav>
+          <section></section>
+         
+    <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+        <!-------------->
+        
+    <div class="container">
+        <h2 class="cursor-scale small">-- SRM ghaziabad presents --</h2>
+        <br><h1 class="cursor-scale">Google Developer Student Club</h1>
+        <!--<br><a href="google.com" class="cursor-scale small">Wanna know more about us???</a>-->
+        <!--<br><input class="cursor-scale" type="button" value="Get started">-->
+    </div>
+    <div class="circle1"></div>
+    <div class="grid">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <!--<div class="lemon"></div>-->
+   <!----<div class="triangle"></div>-->
+    
+    <div class="square"></div>
+    <div class="squaree"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+    <div class="circle6"></div>
+    <div class="circle7"></div>
+    <div class="circle8"></div>
+    <div class="circle9"></div>
+    <div class="circle10"></div>
+    <div class="grid2">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <!--<div class="circle2"></div>-->
+
+    
+    
+    
+    
+   
+        
+    </body>
+<script>
+    var cursor = document.querySelector('.cursor'),
+        cursorScale = document.querySelectorAll('.cursor-scale'),
+        mouseX = 0,
+        mouseY = 0
+
+    gsap.to({}, 0.016, {
+        repeat: -1,
+
+        onRepeat: function () {
+            gsap.set(cursor, {
+                css: {
+                    left: mouseX,
+                    top: mouseY
+                }
+            })
+        }
+    });
+
+    window.addEventListener("mousemove", function (e) {
+        mouseX = e.clientX;
+        mouseY = e.clientY
+    });
+
+    cursorScale.forEach(link => {
+        link.addEventListener('mouseleave', () => {
+            cursor.classList.remove('grow');
+            cursor.classList.remove('grow-small');
+        });
+        link.addEventListener('mousemove', () => {
+            cursor.classList.add('grow');
+            if (link.classList.contains('small')) {
+                cursor.classList.remove('grow');
+                cursor.classList.add('grow-small');
+            }
+        });
+    });
+</script>
